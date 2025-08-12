@@ -1,0 +1,7 @@
+{
+  "enabledMcpjsonServers": [
+    "task-executor-server",
+    "enhanced-sql-server",
+    "datetime-server"
+  ]
+}

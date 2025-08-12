@@ -1,0 +1,7 @@
+{
+  "enabledMcpjsonServers": [
+    "orchestrator-server",
+    "enhanced-sql-server",
+    "datetime-server"
+  ]
+}

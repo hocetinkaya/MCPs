@@ -1,6 +1,18 @@
 {
   "mcpServers": {
-    "sql-server": {
+    "orchestrator-server": {
+      "command": "D:\\Source\\Oguz\\MCPs\\MCP.Claude\\OrchestratorMcp\\bin\\Release\\net10.0\\publish\\OrchestratorMcp.exe",
+      "args": [],
+      "env": {
+        "SERVER_NAME": "DEV-JH\\DEVOGUZ",
+        "DATABASE_NAME": "MCP_DB",
+        "DB_USER": "imsdb",
+        "DB_PASSWORD": "Test12345",
+        "ROLE": "admin",
+        "INSTANCE_NAME": "AdminClaude"
+      }
+    },
+    "enhanced-sql-server": {
       "command": "D:\\Source\\Oguz\\MCPs\\MCP.Claude\\EnhancedSqlMcpServer\\bin\\Release\\net9.0\\publish\\SqlMcpServer.exe",
       "args": [],
       "env": {
