@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "sql-server": {
+      "command": "D:\\Source\\Oguz\\MCPs\\MCP.Claude\\SqlMcpServer\\publish\\SqlMcpServer.exe",
+      "args": [],
+      "env": {
+        "SERVER_NAME": "DEV-JH\\DEVOGUZ",
+        "DATABASE_NAME": "IMS_TEST_DB",
+        "DB_USER": "imsdb",
+        "DB_PASSWORD": "Test12345"
+      }
+    },
+    "datetime-server": {
+      "command": "D:\\Source\\Oguz\\MCPs\\MCP.Claude\\DateTimeMcpServer\\publish\\DateTimeMcpServer.exe",
+      "args": [],
+      "env": {}
+    }
+  }
+}
